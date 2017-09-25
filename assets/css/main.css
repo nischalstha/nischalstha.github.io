@@ -653,15 +653,20 @@
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
+			margin-left: auto;
+			margin-right: auto;
 			width: 70%;
 			align-content: center;
 			justify-content: center;
+
+
 
 		}
 
 			.image.main img {
 				width: 70%;
+				margin-left: auto;
+				margin-right: auto;
 				align-content: center;
 				justify-content: center;
 
@@ -670,7 +675,9 @@
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 2rem 0;
+				margin: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		}
@@ -678,7 +685,9 @@
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				margin: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		}
@@ -693,6 +702,10 @@
 
 		ol li {
 			padding-left: 0.25em;
+			margin: auto;
+			text-align: center;
+
+
 		}
 
 	ul {
@@ -703,6 +716,10 @@
 
 		ul li {
 			padding-left: 0.5em;
+			text-align: center;
+			    margin: auto;
+
+
 		}
 
 		ul.alt {
