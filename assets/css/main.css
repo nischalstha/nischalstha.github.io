@@ -698,12 +698,15 @@
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25em;
+		    vertical-align : middle;
+
 	}
 
 		ol li {
 			padding-left: 0.25em;
 			margin: auto;
 			text-align: center;
+			vertical-align : middle;
 
 
 		}
@@ -712,12 +715,16 @@
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
+		    vertical-align : middle;
+
 	}
 
 		ul li {
 			padding-left: 0.5em;
 			text-align: center;
 			    margin: auto;
+			        vertical-align : middle;
+
 
 
 		}
@@ -725,16 +732,22 @@
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
+			    vertical-align : middle;
+
 		}
 
 			ul.alt li {
 				border-top: solid 1px #ffffff;
 				padding: 0.5em 0;
+				    vertical-align : middle;
+
 			}
 
 				ul.alt li:first-child {
 					border-top: 0;
 					padding-top: 0;
+					    vertical-align : middle;
+
 				}
 
 		ul.icons {
