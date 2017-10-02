@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /* Reset */
@@ -184,6 +184,7 @@
 		font-size: 1.5rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
+		text-align: center;
 	}
 
 	h3 {
